@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+        .username {
+          background-size: 20px;
+          background-color: #0574bd;
+          border-radius: 5px;
+          height: 36px;
+          border: 1px solid;
+          border-color: #d4d2d2;
+          color: white;
+        }
+        </style>
     </head>
     <body>
         <form action="https://www.google.com/search">
-            <input type="text" name="as_q" value="">
-            <input type="text" name="as_epq" value="">
-            <input type="text" name="as_oq" value="">
-            <input type="text" name="as_eq" value="">
-            <input type="submit" value="Advanced Search">
+          <div style="background-color:#e8f5f5;">
+            <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="google.png" width="15%"></div>
+              <div class="col-lg-6">
+                <a href="googleindex.html" style="position: relative; left: 440px">Google Search</a></div></div></div></div>
+          <div style="border-top:1px solid #f0f0f0; border-bottom:1px solid #f0f0f0;">
+          <div class="container">
+            <p><font size="4" color="#a70000" style="font-weight:bold;">ADVANCED SEARCH</font></p> </div></div>
+          <div class="container">
+            <div class="row">
+            <div class="col-lg-3">
+              <div><p>all these words:</p></div>
+              <div><p>this exact word or phrase:</p></div>
+              <div><p>any of these words:</p></div>
+              <div><p>none of these words:</p></div></div>
+            <div class="col-lg-4">
+                <div><input type="text" name="as_q" size="35" value=""></div>
+                <div><input type="text" name="as_epq" size="35" value=""></div>
+                <div><input type="text" name="as_oq" size="35" value=""></div>
+                <div><input type="text" name="as_eq" size="35" value=""></div>
+                <div><input type="submit" value="Advanced Search" class="username" font="White"></div></div>
+              <div class="col-lg-5">
+                <div><p><font size="2">Type the important words:  tricolor rat terrier</font></p></div>
+                <div><p><font size="2">Put exact words in quotes:  "rat terrier"</font></p></div>
+                <div><p><font size="2">Type OR between all the words you want:  miniature OR standard</font></p></div>
+                <div><p><font size="2">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</font></p></div></div></div></div>
         </form>
     </body>
 </html>
