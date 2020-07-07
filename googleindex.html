@@ -2,12 +2,27 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+        .username {
+          background:url(search.png) no-repeat #fff 6px 6px;
+          background-size: 20px;
+          padding: 0px 0px 0px 25px;
+          border-radius: 25px;
+          height: 36px;
+          border: 1px solid;
+          border-color: #d4d2d2;
+        }
+        </style>
     </head>
     <body>
+        <div class="container" style="text-align:right;"><a href="googleimage.html">Google Image</a>
+          <a href="googleadvanced.html">Advanced Search</a><div>
+        <div style="padding:110px;"><div style="text-align:center; padding:10px; margin:20px"><img src="google.png" width="50%"></div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Seach">
-            <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            <div style="text-align:center;"><input style="position: relative; bottom: 55px;" type="text" name="q" size="40" class="username"></div>
+            <div style="text-align:center;"><input style="position: relative; bottom: 50px;" type="submit" value="Google Seach" style="width:150px;"/>
+            <input type="submit" name="btnI" value="I'm Feeling Lucky" style="width:150px; position: relative; bottom: 50px;"></div></div>
         </form>
     </body>
 </html>
